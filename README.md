@@ -1,1 +1,1 @@
-##This repo contains some tasks about C programming
+This repo contains some tasks about C programming
