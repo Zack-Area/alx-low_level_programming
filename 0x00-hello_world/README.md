@@ -1,1 +1,1 @@
-this is a readme file 
+Basic low-level programming tasks in C language 
