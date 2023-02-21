@@ -1,1 +1,3 @@
-This readme file is about functions and nested loops
+# 0x02. C - Functions, nested loops
+
+The purpose of this `README.md` file is to provide a brief overview of some programming concepts that I have learned. I now have a better understanding of nested loops, which are useful for iterating through multiple sets of data, and how to use them. I also understand what functions are and how they can be used to make code more modular and easier to maintain. I now know the difference between a declaration and a definition of a function, as well as what a prototype is. Additionally, I understand the scope of variables and how it affects their accessibility. Furthermore, I learned about `GCC` flags such as `-Wall -Werror -pedantic -Wextra -std=gnu89`, which can be used to control the behavior of the GNU Compiler Collection. Lastly, I now know what header files are and how they can be used with the #include directive to allow code reuse and modularity.
