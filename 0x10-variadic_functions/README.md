@@ -1,0 +1,2 @@
+# 0x10. C - Variadic functions
+Those tasks are about variadic functions, which are functions that can take a variable number of arguments. To work with variadic functions, I have learned to use the `va_start`, `va_arg`, and `va_end` macros. The `va_start` macro initializes a list of arguments, `va_arg` retrieves the next argument in the list, and `va_end` ends the use of the list. Additionally, I have learned about the `const` type qualifier, which is used to indicate that a variable or function parameter should not be modified.
