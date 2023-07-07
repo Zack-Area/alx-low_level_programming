@@ -2,18 +2,18 @@
 
 /**
  * set_bit - sets the value of a bit to 1 at a given index
- * @n: pointer to the unsigned long integer
- * @index: index to set the bit at
- *
- * Return: 1 on success, or -1 on failure
+ * @index: the desired index to set bit to 1 starting from 0
+ * @n: pointer to the number
+ * Return: 1 if it worked, -1 if an error occured
  */
-
 int set_bit(unsigned long int *n, unsigned int index)
 {
-	if (n == NULL || (index > (sizeof(unsigned long int) * 8) - 1))
+	unsigned long int res;
+
+	if (index > (sizeof(unsigned long int) * 8 - 1))
 		return (-1);
 
-	*n |= (1 << index);
+	res = 1 << index;
+	*n = *n | res;
 	return (1);
 }
-
